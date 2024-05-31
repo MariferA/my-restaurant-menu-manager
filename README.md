@@ -1,3 +1,9 @@
+# Visit the Website
+
+Please open your browser and navigate to [this link](https://my-restaurant-menu-manager-3gpv.vercel.app/) to access the website.
+
+Thank you!
+
 # Simple CRUD for Menu
 
 This is a simple CRUD (Create, Read, Update, Delete) application for managing a restaurant's menu using React and TypeScript. The application allows restaurant merchants to create, edit, and save menu items, which are stored in Firebase Realtime Database. The UI is designed to be user-friendly and intuitive, ensuring a smooth experience for the merchant.

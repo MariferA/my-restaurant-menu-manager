@@ -2,31 +2,38 @@
   "name": "my-restaurant-menu-manager",
   "version": "0.1.0",
   "private": true,
+  "author": {
+    "name": "Marifer Alcon",
+    "email": "mariferalcon@gmail.com",
+    "github": "https://github.com/MariferA"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
-    "@types/jest": "^27.5.2",
-    "@types/node": "^16.18.97",
+    "@types/jest": "^29.5.12",
+    "@types/node": "^20.12.13",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
+    "autoprefixer": "^10.4.19",
+    "dotenv": "^16.4.5",
+    "firebase": "^10.12.2",
+    "postcss": "^8.4.38",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-scripts": "5.0.1",
-    "typescript": "^4.9.5",
-    "web-vitals": "^2.1.4"
+    "tailwindcss": "^3.4.3",
+    "typescript": "^5.4.5",
+    "web-vitals": "^2.1.4",
+    "wretch": "^2.8.1"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+    "eject": "react-scripts eject",
+    "eslint": "eslint src/**",
+    "prettier": "prettier --write ."
   },
   "browserslist": {
     "production": [
@@ -39,5 +46,18 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "extends": [
+    "prettier"
+  ],
+  "devDependencies": {
+    "@eslint/compat": "^1.0.3",
+    "@eslint/js": "^9.3.0",
+    "eslint": "9.x",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-react": "^7.34.2",
+    "globals": "^15.3.0",
+    "prettier": "3.2.5",
+    "typescript-eslint": "^7.11.0"
   }
 }
